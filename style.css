@@ -1,0 +1,857 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-size: 11px;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Yeseva One";
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+p {
+  text-transform: none;
+  color: #ffffff;
+}
+
+/* fonts */
+
+.container {
+  height: 100%;
+  width: 90vw;
+  max-width: 1440px;
+  margin: 0px auto;
+}
+
+.button {
+  background: #e3b873;
+  color: #ffffff;
+  width: 161px;
+  height: 37px;
+
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border: 0px;
+  border-radius: 2px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+ display: flex;
+ flex-direction: column;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+/* HEADER */
+
+.header {
+  height: 11vh;
+  background-color: #131313;
+  font-size: 11px;
+  font-size: 1.5vh;
+}
+
+.header-container {
+  align-items: center;
+}
+
+.header-nav {
+  list-style-type: none;
+  width: 49em;
+}
+
+/* HOME */
+
+h1,
+h1 span {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+}
+
+.home {
+  background-image: url(images/main.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  height: 707px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container {
+  width: 90%;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.home-item {
+  margin: 10px 0px;
+}
+
+.home-p {
+  font-size: 2.8vh;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.home-button-orange {
+  width: 207px;
+  height: 51px;
+  margin-right: 20px;
+}
+
+.home-button-clear {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #ffffff;
+
+  width: 207px;
+  height: 51px;
+}
+
+/* PROJECTS */
+
+.projects {
+  background-color: #131313;
+  padding-bottom: 450px;
+}
+
+.projects-ul {
+  list-style-type: none;
+
+  margin-left: 40%;
+  margin-bottom: 45px;
+  margin-top: 65px;
+}
+
+.projects-li {
+  font-family: "Yeseva One";
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.3);
+  margin-right: 60px;
+}
+
+.projects-example {
+  width: 100%;
+}
+
+.projects-image {
+  width: 60%;
+}
+
+.projects-desktop-image {
+  width: 100%;
+}
+
+.projects-mobile-image {
+  display: none;
+}
+
+.projects-info {
+  width: 40%;
+}
+
+.projects-info h2 {
+  font-size: 27px;
+  margin-bottom: 15px;
+}
+
+.projects-info h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.projects-info p {
+  font-size: 14px;
+}
+
+.projects-info span {
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.info-cards {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.info-card {
+  width: 50%;
+  padding: 42px 34px 34px 0px;
+}
+
+
+
+/*  */
+
+.online-control-container {
+  margin-top: -325px;
+  align-items: center;
+}
+
+.online-control-container h3 {
+  font-size: 20px;
+  margin-bottom: 12.79px;
+}
+
+.online-control-container p {
+  width: 50%;
+  font-size: 18px;
+  line-height: 37px;
+  text-align: center;
+  color: #363636;
+}
+
+.online-control-form {
+  margin-top: 40px;
+}
+
+.online-control-container .label {
+  margin-right: 15px;
+}
+
+.online-control-inputs {
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.online-control-inputs .label {
+  width: 33%;
+}
+
+.online-control-checkbox {
+  margin-left: 40%;
+}
+
+.active {
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+.input {
+  width: 100%;
+  border: 0px;
+  font-size: 14px;
+  border-bottom: 2px solid #363636;
+}
+
+
+label {
+  font-size: 13px;
+  color: rgba(54, 54, 54, 0.5);
+}
+
+/* TYPES OF REPAIR */
+
+.types-of-repair {
+    align-items: center;
+    margin-top: 60px;
+}
+
+.types-of-repair h3 {
+    color: #181818;
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+
+.types-of-repair-cards {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.types-of-repair-card {
+    position: relative;
+}
+
+.types-of-repair-card-info {
+    margin-top: -125px;
+    position:absolute;
+    left: 30px;
+    width: 330px;
+    background:#fff ;
+    padding: 15px 34px 0 34px;
+}
+
+.types-of-repair h4 {
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #363636;
+}
+
+.types-of-repair li{
+    font-size: 13px;
+    line-height: 27px;
+
+    color: #959595;
+}
+
+.price {
+  background: #E3B873;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  width: 228px;
+  height: 54px;
+  margin-left: -30px;
+  margin-top: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Yeseva One';
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #FFFFFF;
+}
+
+/* SECOND-FORM */
+
+.measurements {
+  margin-top: 311px;
+  background-image: url(images/background-form2.png);
+  background-repeat: no-repeat;
+  align-items: flex-end;
+}
+
+.measurements-main {
+  width: 100%;
+}
+
+.measurements span {
+  margin-left: 17px;
+  font-size: 14px;
+  color: #363636;
+}
+
+.measurements-item {
+  width: 60%;
+  margin: 0 0 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.kekus {
+  min-width: 57px;
+  min-height: 57px;
+  border-radius: 100%;
+  
+  border: 8px solid #FFFFFF;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-family: 'Yeseva One';
+  font-size: 18px;
+
+  color: #FFFFFF;
+  background-color: #E3B873;
+}
+
+.measurements-form {
+  width: 506px;
+  height: 509px;
+  padding: 27px 49px;
+  background-color:#131313;
+
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+
+  color: #FFFFFF;
+}
+
+.measurements-form span {
+  font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.measurements label {
+  font-size: 13px;
+line-height: 21px;
+
+color: rgba(255, 255, 255, 0.5);
+}
+
+.measurements ::placeholder {
+  color: #FFFFFF;
+}
+
+.measurements-form .input {
+  background: #131313;
+  width: 100%;
+
+  border-bottom: 2px solid #363636;
+}
+
+.measurements-discount {
+  margin-top: 38px;
+  display: flex;
+  align-items: center;
+}
+
+.measurements-discount span {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #E3B873;
+}
+
+/* DESIGN */
+
+.design {
+  background-image: url(images/background-design.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+  height: 864px;
+}
+
+.container-design {
+  margin-top: 242px;
+}
+
+.design-styles {
+  padding-top: 80px;
+}
+
+.design li {
+  margin-top: 20px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  list-style: none;
+
+  color: #FFFFFF;
+}
+
+.design span {
+  margin-bottom: 47px;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 37px;
+
+color: #E3B873;
+}
+
+
+.design-images-1 {
+  margin-right: 45px;
+  margin-top: -40px;
+  margin-bottom: -40px;
+}
+
+.design-images-2 {
+  margin-top: -112px;
+  margin-bottom: 40px;
+}
+
+/* OUR CLIENTS */
+
+.our-clients {
+  margin-top: 110px;
+  /* margin-bottom: 354px; */
+}
+
+.our-clients-background {
+  position: relative;
+  height: 354px;
+}
+
+.our-clients-background::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.05;
+  background-repeat: repeat-x;
+  background-image: url(images/our-clients-background.svg);
+  background-position-y: bottom;
+}
+
+.container-our-clients {
+  align-items: center;
+}
+
+.clients-cards {
+  align-items: center;
+}
+
+.client-card {
+  width: 28%;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+  padding-left: 20px;
+  padding-top: 24px;
+}
+
+.client-card span {
+    
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #181818;
+
+  margin-top: 25px;
+  margin-left: 25px; 
+}
+
+.our-clients p {
+  font-size: 13px;
+  line-height: 180%;
+
+
+  color: #959595;
+
+  margin-top: 25px;
+  margin-bottom: 67px;
+}
+
+.clients-info {
+  margin-bottom: -28px;
+  margin-left: -20px;
+  text-transform: uppercase;
+}
+
+.client-card-item {
+  background: #E3B873;
+  box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+  padding: 11px 17px;
+  margin-right: 3px;
+}
+
+.client-card-item img {
+  margin-bottom: -9px;
+}
+
+.client-card-item span {
+  color: #fff;
+}
+
+
+/* LAST FORM */
+
+
+.map {
+  background-blend-mode: multiply;
+  background-image: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%), url(images/background-last-form.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* 
+.map::before {
+  content: ' ';
+  background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+} */
+
+.map-container {
+  z-index: 1;
+}
+
+.map-form {
+  width: 884px;
+  height: 445px;
+  background-color: #181818;
+
+  margin-top: -222px;
+
+  padding: 34px 181.5px;
+  align-items: center;
+
+  
+
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+
+  color: #FFFFFF;
+}
+
+.map-form-item {
+  width: 100%;
+}
+
+.map .container {
+  align-items: center;
+}
+
+.map-form .subtitle {
+  font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.map label {
+  font-size: 13px;
+  line-height: 21px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.map ::placeholder {
+  color: #FFFFFF;
+}
+
+.map-form .input {
+  background: #181818;
+  width: 100%;
+  font-family: inherit;
+  color: #FFFFFF;
+
+  border-bottom: 2px solid #363636;
+}
+
+.map-adress {
+  font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+
+margin-top: 52px;
+margin-bottom: 22px;
+}
+
+.map-image {
+  margin: 50px 0;
+}
+
+
+
+
+/* don't touch */
+.subtitle {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #181818;
+}
+
+.orange-text {
+  color: #e3b873;
+}
+
+.white-text {
+  color: #FFFFFF;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.input:active {
+  border: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .header-nav {
+    display: none;
+  }
+  .header-button {
+    display: none;
+  }
+  .home-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .home-item {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .home-button {
+    margin-bottom: 26px;
+    width: 100%;
+    height: 51px;
+  }
+  
+  .projects-ul {
+    display: none;
+  }
+  .projects-example {
+    flex-direction: column-reverse;
+  }
+  .projects-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+  }
+  .projects-desktop-image{
+    display: none;
+  }
+  .projects-mobile-image {
+    display: block;
+    /* object-fit: cover; */
+    width: 90vw;
+    /* height: 100%; */
+  }
+  .projects-slider {
+    display: none;
+  }
+  .online-control {
+    background-color: #131313;
+  }
+  .online-control-form {
+    flex-direction: column;
+  }
+  .online-control-inputs {
+    flex-direction: column;
+  }
+  .online-control-inputs .label {
+    width: 100%;
+  }
+  .online-control-checkbox {
+    margin: auto;
+  }
+  .online-control-button {
+    width: 100%; 
+    margin-bottom: -5%;
+  }
+  /* gen */
+  .mobile-image-container {
+    width: 90vw;
+  }
+  #icon-play {
+    width: 100%;
+  }
+  .types-of-repair-cards {
+    flex-direction: column;
+  }
+
+  .measurements{
+    display: none;
+  }
+
+  .measurements-discount {
+    display: none;
+  }
+
+  .design {
+    display: none;
+  }
+  
+  .our-clients {
+    display: none;
+  }
+
+  .map {
+    background: #181818;
+  }
+
+  .map-image {
+    width: 90vw;
+  }
+
+  .map-form {
+    width: 100%;
+    padding: 0;
+  }
+  
+  .map-adress-container {
+    flex-direction: column-reverse;
+  }
+
+  footer {
+    display: none;
+  }
+}
+
+/* checkbox */
+
+.first-checkbox {
+  margin-top: 33px;
+}
+
+.checkbox-label {
+  cursor: pointer;
+}
+.checkbox-label span {
+  font-size: 14px;
+  text-transform: none;
+}
+.checkbox {
+  display: none;
+}
+.fake {
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  background: #e3b873;
+  color: #fff;
+  justify-content: center;
+}
+.fake::before {
+  content: "\2714";
+  opacity: 0;
+  transition: 0.2s;
+}
+.checkbox:checked + .fake::before {
+  opacity: 1;
+}
