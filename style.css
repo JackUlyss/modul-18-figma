@@ -852,10 +852,10 @@ label {
   }
   .types-of-repair-cards {
     flex-direction: column;
-    margin-bottom: 200px;
+    margin-bottom: 50vw;
   }
   .types-of-repair-card {
-    height: 484px;
+    margin-bottom: 100px;
   }
   .types-of-repair-image {
     width: 90vw;
@@ -893,12 +893,12 @@ label {
   .design-mobile-subtitle {
     font-size: 22px;
     line-height: 30px;
-    margin-top: -200px;
+    margin-top: -50vw;
     margin-bottom: 20px;
   }
 
   .design-mobile-image {
-    height: 240px;
+    width: 100%;
   }
 
   .our-clients {
