@@ -38,6 +38,10 @@ p {
   margin: 0px auto;
 }
 
+.mobile {
+  display: none;
+}
+
 .button {
   background: #e3b873;
   color: #ffffff;
@@ -54,8 +58,8 @@ p {
 }
 
 .flex-column {
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .space-between {
@@ -87,13 +91,18 @@ p {
 
 /* HOME */
 
-h1,
-h1 span {
+.home-item-h1 {
   font-family: "Yeseva One";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 53px;
+}
+
+.home-item-h1::after {
+  content: "Rostov-on-Don";
+
+  color: #e3b873;
 }
 
 .home {
@@ -119,7 +128,7 @@ h1 span {
 }
 
 .home-p {
-  font-size: 2.8vh;
+  font-size: 22px;
   line-height: 36px;
   color: #ffffff;
 }
@@ -180,17 +189,17 @@ h1 span {
   width: 40%;
 }
 
-.projects-info h2 {
+.projects-info-h2 {
   font-size: 27px;
   margin-bottom: 15px;
 }
 
-.projects-info h3 {
+.projects-info-h3 {
   font-size: 20px;
   margin-bottom: 15px;
 }
 
-.projects-info p {
+.projects-info-p {
   font-size: 14px;
 }
 
@@ -209,8 +218,6 @@ h1 span {
   padding: 42px 34px 34px 0px;
 }
 
-
-
 /*  */
 
 .online-control-container {
@@ -223,7 +230,7 @@ h1 span {
   margin-bottom: 12.79px;
 }
 
-.online-control-container p {
+.online-control-p {
   width: 50%;
   font-size: 18px;
   line-height: 37px;
@@ -264,7 +271,6 @@ h1 span {
   border-bottom: 2px solid #363636;
 }
 
-
 label {
   font-size: 13px;
   color: rgba(54, 54, 54, 0.5);
@@ -273,51 +279,51 @@ label {
 /* TYPES OF REPAIR */
 
 .types-of-repair {
-    align-items: center;
-    margin-top: 60px;
+  align-items: center;
+  margin-top: 60px;
 }
 
 .types-of-repair h3 {
-    color: #181818;
-    font-size: 20px;
-    margin-bottom: 13px;
+  color: #181818;
+  font-size: 20px;
+  margin-bottom: 13px;
 }
 
 .types-of-repair-cards {
-    margin-top: 30px;
-    width: 100%;
+  margin-top: 30px;
+  width: 100%;
 }
 
 .types-of-repair-card {
-    position: relative;
+  position: relative;
 }
 
 .types-of-repair-card-info {
-    margin-top: -125px;
-    position:absolute;
-    left: 30px;
-    width: 330px;
-    background:#fff ;
-    padding: 15px 34px 0 34px;
+  margin-top: -150px;
+  position: absolute;
+  left: 30px;
+  width: 330px;
+  background: #fff;
+  padding: 15px 34px 0 34px;
 }
 
-.types-of-repair h4 {
-    font-family: 'Yeseva One';
-    font-size: 18px;
-    line-height: 25px;
+.types-of-repair-h4 {
+  font-family: "Yeseva One";
+  font-size: 18px;
+  line-height: 25px;
 
-    color: #363636;
+  color: #363636;
 }
 
-.types-of-repair li{
-    font-size: 13px;
-    line-height: 27px;
+.types-of-repair li {
+  font-size: 13px;
+  line-height: 27px;
 
-    color: #959595;
+  color: #959595;
 }
 
 .price {
-  background: #E3B873;
+  background: #e3b873;
   box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
   width: 228px;
   height: 54px;
@@ -327,11 +333,11 @@ label {
   justify-content: center;
   align-items: center;
 
-  font-family: 'Yeseva One';
+  font-family: "Yeseva One";
   font-size: 18px;
   line-height: 25px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* SECOND-FORM */
@@ -364,56 +370,56 @@ label {
   min-width: 57px;
   min-height: 57px;
   border-radius: 100%;
-  
-  border: 8px solid #FFFFFF;
+
+  border: 8px solid #ffffff;
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  font-family: 'Yeseva One';
+
+  font-family: "Yeseva One";
   font-size: 18px;
 
-  color: #FFFFFF;
-  background-color: #E3B873;
+  color: #ffffff;
+  background-color: #e3b873;
 }
 
 .measurements-form {
   width: 506px;
   height: 509px;
   padding: 27px 49px;
-  background-color:#131313;
+  background-color: #131313;
 
-  font-family: 'Nunito Sans';
+  font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .measurements-form span {
-  font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 26px;
-text-align: center;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
 .measurements label {
   font-size: 13px;
-line-height: 21px;
+  line-height: 21px;
 
-color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .measurements ::placeholder {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .measurements-form .input {
@@ -432,7 +438,7 @@ color: rgba(255, 255, 255, 0.5);
 .measurements-discount span {
   margin-bottom: 30px;
   font-size: 18px;
-  color: #E3B873;
+  color: #e3b873;
 }
 
 /* DESIGN */
@@ -442,7 +448,7 @@ color: rgba(255, 255, 255, 0.5);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
+
   height: 864px;
 }
 
@@ -456,27 +462,26 @@ color: rgba(255, 255, 255, 0.5);
 
 .design li {
   margin-top: 20px;
-  font-family: 'Nunito Sans';
+  font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 38px;
   list-style: none;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .design span {
   margin-bottom: 47px;
-  font-family: 'Yeseva One';
+  font-family: "Yeseva One";
   font-style: normal;
   font-weight: 400;
   font-size: 27px;
   line-height: 37px;
 
-color: #E3B873;
+  color: #e3b873;
 }
-
 
 .design-images-1 {
   margin-right: 45px;
@@ -502,7 +507,7 @@ color: #E3B873;
 }
 
 .our-clients-background::before {
-  content: ' ';
+  content: " ";
   display: block;
   position: absolute;
   width: 100%;
@@ -523,15 +528,14 @@ color: #E3B873;
 
 .client-card {
   width: 28%;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
   padding-left: 20px;
   padding-top: 24px;
 }
 
 .client-card span {
-    
-  font-family: 'Yeseva One';
+  font-family: "Yeseva One";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -540,13 +544,12 @@ color: #E3B873;
   color: #181818;
 
   margin-top: 25px;
-  margin-left: 25px; 
+  margin-left: 25px;
 }
 
 .our-clients p {
   font-size: 13px;
   line-height: 180%;
-
 
   color: #959595;
 
@@ -561,7 +564,7 @@ color: #E3B873;
 }
 
 .client-card-item {
-  background: #E3B873;
+  background: #e3b873;
   box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
   padding: 11px 17px;
   margin-right: 3px;
@@ -575,13 +578,16 @@ color: #E3B873;
   color: #fff;
 }
 
-
 /* LAST FORM */
-
 
 .map {
   background-blend-mode: multiply;
-  background-image: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%), url(images/background-last-form.jpg);
+  background-image: linear-gradient(
+      180deg,
+      rgba(24, 24, 24, 0.9) 3.47%,
+      rgba(24, 24, 24, 0.72) 100%
+    ),
+    url(images/background-last-form.jpg);
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -610,15 +616,13 @@ color: #E3B873;
   padding: 34px 181.5px;
   align-items: center;
 
-  
-
-  font-family: 'Nunito Sans';
+  font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .map-form-item {
@@ -630,15 +634,15 @@ color: #E3B873;
 }
 
 .map-form .subtitle {
-  font-family: 'Yeseva One';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-text-transform: uppercase;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
 .map label {
@@ -649,40 +653,37 @@ color: #FFFFFF;
 }
 
 .map ::placeholder {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .map-form .input {
   background: #181818;
   width: 100%;
   font-family: inherit;
-  color: #FFFFFF;
+  color: #ffffff;
 
   border-bottom: 2px solid #363636;
 }
 
 .map-adress {
-  font-family: 'Yeseva One';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
 
-margin-top: 52px;
-margin-bottom: 22px;
+  margin-top: 52px;
+  margin-bottom: 22px;
 }
 
 .map-image {
   margin: 50px 0;
 }
 
-
-
-
 /* don't touch */
 .subtitle {
-  font-family: 'Yeseva One';
+  font-family: "Yeseva One";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -698,7 +699,7 @@ margin-bottom: 22px;
 }
 
 .white-text {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .uppercase {
@@ -709,7 +710,6 @@ margin-bottom: 22px;
   border: none;
 }
 
-
 @media screen and (max-width: 768px) {
   .header-nav {
     display: none;
@@ -717,25 +717,58 @@ margin-bottom: 22px;
   .header-button {
     display: none;
   }
+  .home {
+    height: 476px;
+  }
   .home-buttons {
     display: flex;
     flex-direction: column;
   }
   .home-item {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
+  }
+  .home-item-h1 {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .home-p {
+    font-size: 14px;
+    line-height: 19px;
   }
   .home-button {
     margin-bottom: 26px;
-    width: 100%;
-    height: 51px;
   }
-  
+
+  .projects {
+    padding-bottom: 350px;
+  }
   .projects-ul {
     display: none;
   }
   .projects-example {
     flex-direction: column-reverse;
+    align-items: center;
+  }
+  .projects-info {
+    align-items: center;
+    width: 100%;
+  }
+  .projects-info-h2 {
+    font-size: 22px;
+    margin-top: 32px;
+    text-align: center;
+  }
+  .projects-info-p {
+    width: 90%;
+    margin-top: 22px;
+    margin-bottom: 61px;
+  }
+  .projects-info-h3 {
+    font-size: 14px;
+  }
+  .projects-info span {
+    font-size: 11px;
   }
   .projects-image {
     display: flex;
@@ -743,14 +776,12 @@ margin-bottom: 22px;
     align-items: center;
     width: 90vw;
   }
-  .projects-desktop-image{
+  .projects-desktop-image {
     display: none;
   }
   .projects-mobile-image {
     display: block;
-    /* object-fit: cover; */
     width: 90vw;
-    /* height: 100%; */
   }
   .projects-slider {
     display: none;
@@ -760,32 +791,90 @@ margin-bottom: 22px;
   }
   .online-control-form {
     flex-direction: column;
+    width: 100%;
   }
   .online-control-inputs {
     flex-direction: column;
+  }
+  .online-control label {
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .online-control-input {
+    background: #131313;
+    width: 100%;
+    font-family: inherit;
+    color: #ffffff;
+    border-bottom: 1px solid #c3c3c3;
+  }
+  .online-control-input::placeholder {
+    color: #fff;
   }
   .online-control-inputs .label {
     width: 100%;
   }
   .online-control-checkbox {
-    margin: auto;
+    margin: 10px auto 30px auto;
   }
+
   .online-control-button {
-    width: 100%; 
+    width: 100%;
     margin-bottom: -5%;
   }
   /* gen */
   .mobile-image-container {
     width: 90vw;
+    position: relative;
   }
+  .arrow-icon-left {
+    transform: rotate(180deg);
+    position: absolute;
+    left: 10px;
+    top: 50%;
+  }
+  .arrow-icon-right {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+  }
+
+  .online-control-p {
+    width: 100%;
+    margin-top: 20px;
+
+    font-size: 11px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+
   #icon-play {
     width: 100%;
   }
   .types-of-repair-cards {
     flex-direction: column;
+    margin-bottom: 200px;
+  }
+  .types-of-repair-card {
+    height: 484px;
+  }
+  .types-of-repair-image {
+    width: 90vw;
+  }
+  .types-of-repair-card-info {
+    left: -2px;
+    width: 80%;
+    background: #ffffff;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+  }
+  .types-of-repair-h4 {
+    font-size: 14px;
+  }
+  .types-of-repair li {
+    font-size: 11px;
+    margin-bottom: -10px;
   }
 
-  .measurements{
+  .measurements {
     display: none;
   }
 
@@ -796,7 +885,22 @@ margin-bottom: 22px;
   .design {
     display: none;
   }
-  
+
+  .mobile {
+    display: block;
+  }
+
+  .design-mobile-subtitle {
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: -200px;
+    margin-bottom: 20px;
+  }
+
+  .design-mobile-image {
+    height: 240px;
+  }
+
   .our-clients {
     display: none;
   }
@@ -805,22 +909,42 @@ margin-bottom: 22px;
     background: #181818;
   }
 
-  .map-image {
-    width: 90vw;
-  }
-
   .map-form {
     width: 100%;
     padding: 0;
+    margin-top: 50px;
   }
-  
+  .map-form .space-between {
+    flex-direction: column;
+  }
+
+  .map-form-label {
+    margin-bottom: 40px;
+  }
+  .map-image {
+    width: 90vw;
+    height: 250px;
+    object-fit: cover;
+  }
+
   .map-adress-container {
     flex-direction: column-reverse;
+    margin-bottom: 30px;
+  }
+
+  .map-adress {
+    margin-top: 0;
   }
 
   footer {
     display: none;
   }
+
+  .button {
+    width: 100%;
+    height: 50px;
+  }
+  
 }
 
 /* checkbox */

@@ -28,8 +28,8 @@
 
     <section class="home">
         <div class="container home-container flex-column">
-            <h1 class="home-item">Turnkey Repair in the
-              <br>city of <span class="orange-text">Rostov-on-Don</span></h1>
+            <h1 class="home-item home-item-h1">Turnkey Repair in the
+              <br>city of </h1>
             <p class="home-item home-p">Get ready-made turnkey repairs on time
               <br> with work time saving up to 45 days and 20% from
               <br> cost of materials due to the organization of work
@@ -50,30 +50,30 @@
         </ul>
         <div class="projects-example flex">
           <div class="projects-info flex-column">
-            <h2 class="orange-text">Completed<br> projects</h2>
-            <p>Only a small part of the work performed by our company is presented
-              <br> on the site. For 14 years on in the construction 
-              <br>market we have made happy more than 1000 families
+            <h2 class="orange-text projects-info-h2">Completed<br> projects</h2>
+            <p class="projects-info-p">Only a small part of the work performed by our company is presented on the site. 
+              For 14 years on in the construction market we have made happy more than 1000 families
             </p>
-            <div>
+            <div class="mobile-image-container">
               <img class="projects-mobile-image" src="images/mobile-image.jpg" alt="projects image">
-
+              <img class="arrow-icon-left" src="images/arrow-icon.svg" alt="arrow-icon-left">
+              <img class="arrow-icon-right" src="images/arrow-icon.svg" alt="arrow-icon-left">
             </div>
             <div class="info-cards">
               <div class="info-card">
-                <h3 class="orange-text">City:</h3>
+                <h3 class="orange-text projects-info-h3">City:</h3>
                 <span>Rostov-on-Don <br>LCD admiral</span>
               </div>
               <div class="info-card">
-                <h3 class="orange-text">Apartment area:</h3>
+                <h3 class="orange-text projects-info-h3">Apartment area:</h3>
                 <span>81 m2</span>
               </div>
               <div class="info-card">
-                <h3 class="orange-text">Repair time:</h3>
+                <h3 class="orange-text projects-info-h3">Repair time:</h3>
                 <span>3.5 months</span>
               </div>
               <div class="info-card">
-                <h3 class="orange-text">Repair cost:</h3>
+                <h3 class="orange-text projects-info-h3">Repair cost:</h3>
                 <span>Upon request</span>
               </div>
             </div>
@@ -96,36 +96,34 @@
             <img id="icon-play" src="images/translation.png" alt="translation">
         </div>
         <hr>
-        <p>At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities!
+        <p class="online-control-p">At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities!
           Leave a request below and you will receive a link to the broadcast.
         </p>
-        <form action="">
-          <div class="online-control-form flex">
-            <div class="online-control-inputs flex">
-              <label class="label" for="name">
-                Name<br>
-                <input class="input"
-                  type="text"
-                  id="name" 
-                  placeholder="What is your name:">
-              </label>
-              <label class="label" for="phone">
-                Phone<br>
-                <input class="input"
+        <form class="online-control-form flex" action="#">
+          <div class="online-control-inputs flex">
+            <label class="label" for="name1">
+              Name<br>
+              <input class="input online-control-input"
+                type="text"
+                id="name1" 
+                placeholder="What is your name:">
+            </label>
+            <label class="label" for="phone1">
+              Phone<br>
+              <input class="input online-control-input"
                 type="text" 
-                id="phone" 
-                placeholder="Your phone number:">
-              </label class="label">
-              <div class="first-checkbox online-control-checkbox">
-                <label class="checkbox-label">
-                  <input type="checkbox" class="checkbox" >
-                  <span class="fake"></span>
-                  <span class="text">I agree to the processing of personal data.</span>
-                </label>
-              </div>
+                id="phone1" 
+              placeholder="Your phone number:">
+            </label class="label">
+            <div class="first-checkbox online-control-checkbox">
+              <label class="checkbox-label">
+                <input type="checkbox" class="checkbox" >
+                <span class="fake"></span>
+                <span class="text">I agree to the processing of personal data.</span>
+              </label>
             </div>
-            <button class="button online-control-button">SUBMIT</button>
           </div>
+          <button class="button online-control-button">SUBMIT</button>  
         </form>
       </div>
     </section>
@@ -138,9 +136,9 @@
         </div>
         <div class="types-of-repair-cards space-between">
           <div class="types-of-repair-card">
-            <img src="images/types-of-repair-1.jpg" alt="types-of-repair">
+            <img class="types-of-repair-image" src="images/types-of-repair-1.jpg" alt="types-of-repair">
             <div class="types-of-repair-card-info">
-              <h4>Redecorating</h4>
+              <h4 class="types-of-repair-h4">Redecorating</h4>
               <ul>
                 <li>Dismantling of old coatings</li>
                 <li>Wallpapering</li>
@@ -154,9 +152,9 @@
             </div>
           </div>
           <div class="types-of-repair-card">
-            <img src="images/types-of-repair-2.jpg" alt="types-of-repair">
+            <img class="types-of-repair-image" src="images/types-of-repair-2.jpg" alt="types-of-repair">
             <div class="types-of-repair-card-info">
-              <h4>Overhaul</h4>
+              <h4 class="types-of-repair-h4">Overhaul</h4>
               <ul>
                 <li>Dismantling of old coatings</li>
                 <li>Wallpapering</li>
@@ -170,9 +168,9 @@
             </div>
           </div>
           <div class="types-of-repair-card">
-            <img src="images/types-of-repair-3.jpg" alt="types-of-repair">
+            <img class="types-of-repair-image" src="images/types-of-repair-3.jpg" alt="types-of-repair">
             <div class="types-of-repair-card-info">
-              <h4>Designer Repair</h4>
+              <h4 class="types-of-repair-h4">Designer Repair</h4>
               <ul>
                 <li>Dismantling of old coatings</li>
                 <li>Wallpapering</li>
@@ -211,19 +209,19 @@
               <span>Get a cost estimate and the timing of your future repairs</span>
             </div>
           </div>
-          <form class="measurements-form flex-column space-between" action="">
+          <form class="measurements-form flex-column space-between" action="#">
             <span>Leave a request for free departure of the measurer</span>
-            <label for="">
+            <label for="name2">
               Name<br>
-              <input class="input" type="text" placeholder="What is your name:">
+              <input class="input" type="text" id="name2" placeholder="What is your name:">
             </label>
-            <label for="">
+            <label for="phone2">
               Phone<br>
-              <input class="input" type="text" placeholder="Your phone number:">
+              <input class="input" type="text" id="phone2" placeholder="Your phone number:">
             </label>
-            <label for="">
+            <label for="email">
               Email<br>
-              <input class="input" type="text" placeholder="Your email">
+              <input class="input" type="text" id="email" placeholder="Your email">
             </label>
             <label class="checkbox-label">
               <input type="checkbox" class="checkbox" >
@@ -234,7 +232,7 @@
           </form>
         </div>
         <div class="measurements-discount">
-          <img src="images/piggy-bank.svg" alt="">
+          <img src="images/piggy-bank.svg" alt="icon-piggy-bank">
           <span>Help save 10 - 20% of the cost of materials</span>
         </div>
       </div>
@@ -260,12 +258,12 @@
         </div>
         <div class="space-between">
           <div class="design-images-1 flex-column space-between">
-            <img class="design-image-item-1" src="images/design-pic-1.png" alt="">
-            <img class="design-image-item-2" src="images/design-pic-2.png" alt="">
+            <img class="design-image-item-1" src="images/design-pic-1.png" alt="pic-of-design">
+            <img class="design-image-item-2" src="images/design-pic-2.png" alt="pic-of-design">
           </div>
           <div class="design-images-2 flex-column space-between">
-            <img class="design-image-item-3" src="images/design-pic-3.png" alt="">
-            <img class="design-image-item-4" src="images/design-pic-4.png" alt="">
+            <img class="design-image-item-3" src="images/design-pic-3.png" alt="pic-of-design">
+            <img class="design-image-item-4" src="images/design-pic-4.png" alt="pic-of-design">
           </div>
         </div>
       </div>
@@ -274,7 +272,7 @@
     <section class="our-clients">
       <div class="container container-our-clients flex-column space-between">
         <h3 class="subtitle">Our clients</h3>
-        <div><img src="images/our-clients.svg" alt=""></div>
+        <div><img src="images/our-clients.svg" alt="icon"></div>
         <p>80% of our customers recommend us to their
           friends and family.</p>
         <div class="clients-cards space-between">
@@ -342,21 +340,28 @@
 
     <section class="map">
       <div class="container map-container flex-column">
-        <form class="map-form flex-column space-between" action="">
+        
+        <span class="mobile subtitle design-mobile-subtitle orange-text">We realize your <br>wildest fantasies</span>
+        <div>
+          <img class=" mobile design-mobile-image" src="images/desing-mobile-image.png" alt="pic-of-design">
+            <img class="arrow-icon-left" src="images/arrow-icon.svg" alt="arrow-icon-left">
+            <img class="arrow-icon-right" src="images/arrow-icon.svg" alt="arrow-icon-left">
+        </div>
+        <form class="map-form flex-column space-between" action="#">
           <span class="map-form-item uppercase subtitle">Have any questions?</span>
           <div class="map-form-item space-between">
-            <label for="">
+            <label class="map-form-label" for="name3">
               Name<br>
-              <input class="input" type="text" placeholder="What is your name:">
+              <input class="input" type="text" id="name3" placeholder="What is your name:">
             </label>
-            <label for="">
+            <label for="phone3">
               Phone<br>
-              <input class="input" type="text" placeholder="Your phone number:">
+              <input class="input" type="text" id="phone3" placeholder="Your phone number:">
             </label>
           </div>
-          <label class="map-form-item" for="Question">
+          <label class="map-form-item" for="question">
             Question<br>
-            <input class="input" type="text" placeholder="I want to know:">
+            <input class="input" type="text" id="question" placeholder="I want to know:">
           </label>
           <label class="checkbox-label">
               <input type="checkbox" class="checkbox" >
